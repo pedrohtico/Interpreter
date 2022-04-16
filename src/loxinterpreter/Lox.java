@@ -48,7 +48,6 @@ public class Lox
 			String line = reader.readLine();
 			if (line == null)
 				break;
-			System.out.println(line);
 			run(line);
 			hadError = false;
 		}
